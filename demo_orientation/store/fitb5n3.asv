@@ -1,0 +1,65 @@
+function [STD,P5,Ptmp,mP] = fitb5n3(PSFstack,b5,b3,sze,rep)
+iter=60;
+coeff5=b5.coeffs;
+coeff3=b3.coeffs;
+sz=15;
+coord=round((sze-sz));
+tmpPSF=repmat(PSFstack(),[1 1 rep]);
+% tmpPSF=repmat(PSFstack(1:end-2,1:end-2,:),[1 1 rep]);
+ind=round(size(PSFstack,3)*[1/4,1/2,3/4]);
+tmpPSF=poissrnd(tmpPSF);
+
+% figure('name', 'PSF in three position');
+% for i=1:3
+% subplot(2,3,i)
+% imagesc(PSFstack(:,:,ind(i)));
+% subplot(2,3,i+3)
+% imagesc(tmpPSF(:,:,ind(i)));
+% end
+
+% cd E:\usr\LMF\5D\5DGPU\GPUmleFit_LM_Unite_5D\GPUmleFit_LM_Unite1\GPUmleFit_LM_Unite35D\x64\Release
+% cd E:\usr\LMF\5D\5DGPU\GPUmleFit_LM_Unite_5D\GPUmleFit_LM_Unite_v3\x64\Release
+% initP=single([25 24 25;25 12 25;25 1 25]);
+% initP=single([18 12 25 0.25;32 12 25 0.75;
+%     18 24 25 0.25;32 24 25 0.75;
+%             ]);
+% 
+initP=single([15 12 25 0.7;32 12 25 0.7;
+    15 24 25 0.7;32 24 25 0.7;
+    ]);
+tic
+inittmp=initP(1,:);
+% [P5,CRLB5,LL,~]=CPUmleFit_LM5and3D_v2(single(tmpPSF),9,iter,single(coeff5),single(coeff3),inittmp,silent);
+[P5 CRLB5 LL deg iter] = GPUmleFit_LM_bSpline_v2(single(tmpPSF),single(coeff5),iter,8,0,single(coeff3),single(inittmp));
+
+if size(initP,1)>1
+    for i=2:size(initP,1)
+        inittmp=initP(i,:);
+%         [P5h,CRLBsh,LLh,~]=CPUmleFit_LM5and3D(single(tmpPSF),9,iter,single(coeff5),single(coeff3),inittmp);
+%         [P5h,CRLB5h,LLh,~]=CPUmleFit_LM5and3D_v2(single(tmpPSF),9,iter,single(coeff5),single(coeff3),inittmp,silent);
+        [P5h CRLB5h LLh deg iter] = GPUmleFit_LM_bSpline_v2(single(tmpPSF),single(coeff5),iter,8,0,single(coeff3),single(inittmp));
+        indbetter=LLh-LL>=1e-4; %copy only everything if LogLh increases by more than rounding error.
+        P5(indbetter,:)=P5h(indbetter,:);
+        CRLB5(indbetter,:)=CRLB5h(indbetter,:);
+        LL(indbetter)=LLh(indbetter);
+    end
+end
+toc
+Ptmp=reshape(P5,size(P5,1)/rep,rep,size(P5,2));
+mP=squeeze(mean(Ptmp,2));
+%select
+% [indi,indj]=find(Ptmp(:,:,8)>0.7);
+% for ii=1:size(i)
+%     for jj=1:9
+%     Ptmp(indi(ii),indj(ii),:)=nan;
+%     end
+% end
+STD=squeeze(nanstd(Ptmp,0,2));
+STD(:,1)=b5.dx*STD(:,1);
+STD(:,2)=b5.dy*STD(:,2);
+STD(:,5)=b5.dz*STD(:,5);
+STD(:,6)=b5.du*STD(:,6);
+STD(:,7)=b5.dv*STD(:,7);
+
+end
+

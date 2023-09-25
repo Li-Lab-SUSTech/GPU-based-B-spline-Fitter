@@ -1,0 +1,91 @@
+﻿  Compiling CUDA source file GPUmleFit_LM_sCMOS.cu...
+  Compiling CUDA source file wrapper.cu...
+  Compiling CUDA source file GPUmleFit_LM_EMCCD.cu...
+  
+  E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\admin\program\install_here\VS19\IDE\VC\Tools\MSVC\14.20.27508\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\GPUmleFit_LM_sCMOS.cu.obj "E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\GPUmleFit_LM_sCMOS.cu" 
+  
+  E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\admin\program\install_here\VS19\IDE\VC\Tools\MSVC\14.20.27508\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\wrapper.cu.obj "E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\wrapper.cu" 
+  
+  E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\admin\program\install_here\VS19\IDE\VC\Tools\MSVC\14.20.27508\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\GPUmleFit_LM_EMCCD.cu.obj "E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\GPUmleFit_LM_EMCCD.cu" 
+E:\usr\LMF\fit3Dcspline_combine\source\Lib\GPUgaussLib.cuh(177): warning : variable "ii" was declared but never referenced
+  
+E:\usr\LMF\fit3Dcspline_combine\source\Lib\GPUgaussLib.cuh(177): warning : variable "jj" was declared but never referenced
+  
+E:\usr\LMF\fit3Dcspline_combine\source\Lib\GPUgaussLib.cuh(177): warning : variable "ii" was declared but never referenced
+  
+E:\usr\LMF\fit3Dcspline_combine\source\Lib\GPUgaussLib.cuh(177): warning : variable "jj" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1218): warning : variable "xstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1218): warning : variable "ystart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1218): warning : variable "zstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1218): warning : variable "xi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1218): warning : variable "yi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1229): warning : variable "oldUpdate" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1243): warning : variable "temp" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1586): warning : variable "conv" was set but never used
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "xstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "ystart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "zstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "wstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "xi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1587): warning : variable "yi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1598): warning : variable "oldUpdate" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(1613): warning : variable "temp" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2003): warning : variable "conv" was set but never used
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "xstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "ystart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "zstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "wstart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "ustart" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "xi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "yi" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2004): warning : variable "turn" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2017): warning : variable "oldUpdate" was declared but never referenced
+  
+E:/usr/LMF/fit3Dcspline_combine/source/source/GPUmleFit_LM/GPUmleFit_LM_EMCCD.cu(2032): warning : variable "temp" was declared but never referenced
+  
+  wrapper.cu
+  GPUmleFit_LM_sCMOS.cu
+  GPUmleFit_LM_EMCCD.cu
+  mexFunction.cpp
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(306): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(307): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(308): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(318): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(319): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(320): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(330): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(331): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(332): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(333): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(343): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(344): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(345): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(346): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\usr\LMF\fit3Dcspline_combine\source\source\GPUmleFit_LM\mexFunction.cpp(347): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+LINK : fatal error LNK1561: 必须定义入口点

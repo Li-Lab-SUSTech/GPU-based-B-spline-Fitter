@@ -1,0 +1,67 @@
+﻿  CPUgaussLib.cpp
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(21,28): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(22,28): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(23,28): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(24,28): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(25,28): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(26,26): warning C4305: “初始化”: 从“double”到“float”截断
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(33,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(36,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(37,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(54,18): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(68,40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(81,53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(94,43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(111,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(112,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(114,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(117,78): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(136,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(137,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(138,67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(141,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(204,13): warning C4101: “jj”: 未引用的局部变量
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(204,9): warning C4101: “ii”: 未引用的局部变量
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(288,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(289,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(301,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(302,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(316,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(317,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(319,70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUgaussLib.cpp(320,70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  CPUmleFit_LM.cpp
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUmleFit_LM.cpp(29,10): fatal error C1083: 无法打开包括文件: “mex.h”: No such file or directory
+  CPUsplineLib.cpp
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(45,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(48,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(49,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(50,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(51,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(52,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(189,294): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(254,294): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(321,294): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(386,294): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(451,294): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(763,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(766,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(767,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(768,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(769,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(850,202): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(883,202): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(917,202): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(950,202): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1201,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1204,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1205,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1206,12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1249,228): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1258,228): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1268,228): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1305,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1373,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\CPUsplineLib.cpp(1382,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  mexFunction.cpp
+H:\GitHub\MLE-by-bspline\MultiD_bspline\visual code\CPUmleFit_LM\mexFunction.cpp(82,10): fatal error C1083: 无法打开包括文件: “mex.h”: No such file or directory
