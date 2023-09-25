@@ -13,7 +13,7 @@ For multi-dimensional PSF simulation and localization, three example codes are a
 * 2 demo_color_classification/bspline_based_color_classification_v3.m
 * 3 demo_orientation/bspline_based_5D_fitting_v3.m
 # GUI of color classification and orientation localization
-For easier and faster calling of the multidimensional fitter, we integrated it into the lightweight single-molecule fitter in file [MutiD_fitter](https://github.com/Li-Lab-SUSTech/GPU-based-B-spline-Fitter/tree/main/MultiD_fitter) and example datas in [here].
+For easier and faster calling of the multidimensional fitter, we integrated it into the lightweight single-molecule fitter in file [MutiD_fitter](https://github.com/Li-Lab-SUSTech/GPU-based-B-spline-Fitter/tree/main/MultiD_fitter) and example datas in [here].(www.baidu.com).
 
 # Contact
 For any questions / comments about this software, please contact [Li Lab](https://faculty.sustech.edu.cn/liym2019/en/).
