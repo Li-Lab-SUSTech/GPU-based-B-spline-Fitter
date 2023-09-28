@@ -1,7 +1,7 @@
 //Copyright (c) 2017 Ries Lab, European Molecular Biology Laboratory, Heidelberg.
-//author: Yiming Li
+//author: Yiming Li, Mengfan Li
 //email: liym2019@sustech.edu.cn
-//date: 2017.07.24
+//date: 2023.09.22
 
 // Derivative for Gaussian were adopt from Keith Lidke
 //"Fast, single-molecule localization that achieves theoretically minimum uncertainty." 

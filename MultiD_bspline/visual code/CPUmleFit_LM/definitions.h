@@ -1,7 +1,7 @@
 /*!
  * \file definitions.h
 //author Yiming Li
-//date 20170301
+//date 2023.09.22
  * \brief The constants used throughout the project. 
  */
 //#ifndef DEFINITIONS_H

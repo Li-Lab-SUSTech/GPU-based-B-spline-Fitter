@@ -1,7 +1,7 @@
 /*!
  * \file GPUmleFit_LM_sCMOS.h
  //author Yiming Li
-//date 20170301
+//date 2023.09.22
  * \brief Prototypes for the actual Cuda kernels.  
  */
 
