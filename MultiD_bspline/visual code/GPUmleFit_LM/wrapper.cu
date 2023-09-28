@@ -1,6 +1,6 @@
 //file GPUmleFit_LM_sCMOS.cu
 //author Yiming Li
-//date 20170301
+//date 2023.09.22
 
  //brief Wrap the Cuda kernel calls as standard external C functions.  This allows the kernels to be
  // called without doing anything special in the C code and simplifies building the code.

@@ -1,6 +1,6 @@
 //Copyright (c) 2017 Ries Lab, European Molecular Biology Laboratory, Heidelberg.
 //author: Yiming Li
-//email: yiming.li@embl.de
+//email: liym2019@sustech.edu.cn
 //date: 2017.07.24
 
 // Derivative for Gaussian were adopt from Keith Lidke

@@ -1,5 +1,5 @@
 % Copyright (c) 2021 Li Lab, Southern University of Science and Technology, Shenzhen
-% author: Yiming Li
+% author: Yiming Li, Mengfan Li
 % email: liym2019@sustech.edu.cn
 % date: 2022.10.25
 % Tested with CUDA 11.1 (Express installation) and Matlab 2021b

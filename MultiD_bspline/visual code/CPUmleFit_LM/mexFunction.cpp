@@ -1,6 +1,6 @@
 //Copyright (c) 2023 Li Lab, Southern University of Science and Technology.
-//author: Yiming Li
-//email: yiming.li@embl.de
+//author: Yiming Li, Mengfan Li
+//email: liym2019@sustech.edu.cn
 //date: 2023.09.22
 
 //Using Keith Lidke's template
